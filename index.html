@@ -12,7 +12,7 @@
     <input id="tel" type="tel" inputmode="numeric" pattern="[0-9]*" onchange="
         var link = document.getElementById('link');
         var input= document.getElementById('tel');
-        link.href = 'https://web.whatsapp.com/send?phone=' + input.value;
+        link.href = 'https://api.whatsapp.com/send?phone=' + input.value;
     ">
     <a id="link" href="#">go</a>
 </body>
